@@ -1,0 +1,1 @@
+"use strict";!function(){var t=document.querySelector(".cl2");ajax({type:"get",url:"../api/car3.php",success:function(e){!function(e){var n=JSON.parse(e);getcookie("username")?t.innerHTML=n.total:t.innerHTML=0}(e)}})}();

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../scss/zhuce.css">
+</head>
+<body>
+    <div id="zhuce">
+        <div id="header">
+            <img src="../img/logo_zhe800_new.png" alt="">
+            <span>已经有团800或折800帐号了？<a href="../html/denglu.html">去登录</a></span>
+        </div>
+        <div id="body">
+            <div id="lfzc">
+                <span id="sp1">用户名：&nbsp;&nbsp;<input type="text"class="ip1 inp1" placeholder="字母开头,6-12位"></span>
+                <span class="zzsp1 zzsp">&nbsp;</span>
+                <span id="sp2">密码：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password"class="ip1 inp2" placeholder="6-18位首字母开头"></span>
+                <span class="zzsp2 zzsp">&nbsp;</span>
+                <span id="sp3">确认密码：<input type="password" class="ip1 inp3" placeholder="确认输入的密码"></span>
+                <span class="zzsp3 zzsp">&nbsp;</span>
+                <div id="asd">
+                        <div id="box">
+                            <div id="box1"></div>
+                            <div id="box2">
+                                <img src="../img/denglu11.png" alt="">
+                            </div>
+                            <p id="pp1">
+                            请按住滑块，拖动到最右面
+                            </p>
+                        </div>
+                    </div>
+                <span id="sp4"><input type="checkbox" name="" id="" class="btn3"> 我已阅读并接受折800的《用户服务协议》</span>
+                <p class="pp2">同意协议并注册</p>
+            </div>
+            <div id="rgzc">
+                <span class="rsp1">还可以使用这些账号登录</span>
+                <span class="rimg1"></span>
+                <span class="rimg1"></span>
+                <span class="rimg1 sp4"></span>
+                <span class="rimg1 sp5"></span>
+                <span id="btn">更多▽</span>
+ 
+            </div>
+        </div>
+        <div id="footer">
+            <p>京ICP证120075号 <span>京ICP备10051110号-5</span> 京公网安备11010502025623 <span> 食品流通许可证SP1101051510352397 Copyright©2011-2019 版权所有 ZHE800.COM</span></p>
+        </div>
+    </div>
+</body>
+<script src="../lib/darg.js"></script>
+<script src="../js/zhuce.js"></script>
+<script src="../lib/common.js"></script>
+<script src="../js/zczz.js"></script>
+<script>
+(function(){
+        darg({
+            ele : 'box',
+            ele1: 'box1',
+            ele2: 'box2',
+            ele3: 'pp1',
+            biw : 250,
+            bih : 30
+        });
+        zczz();
+    })();
+</script>
+</html>

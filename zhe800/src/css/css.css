@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+/*图片的样式*/
+#nrblf{
+	width: 950px;
+	height: 308px;
+	position: relative;
+	overflow: hidden;
+}
+
+.imglist{
+	width: 500px;
+	height: 300px;
+}
+
+.imglist li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 950px;
+	height: 308px;
+	text-align: center;
+	line-height: 308px;
+	font-size: 40px;
+	color: red;
+}
+
+
+
+/*焦点样式*/
+.light{
+	width: 500px;
+	height: 20px;
+	position: absolute;
+	left:230px;
+	bottom: 10px;
+	/*background: #ccc;*/
+	text-align: center;
+}
+.light span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	cursor: pointer;
+	/*让焦点的文字消失的方法*/
+	text-indent: -9999px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.light span.active{
+	background:#ea0401;
+}
+
+

@@ -1,0 +1,291 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#car {
+  width: 100%;
+}
+
+#car #header {
+  width: 100%;
+  background: #fafafa;
+}
+
+#car #header #box {
+  width: 1000px;
+  height: 30px;
+  margin: auto;
+  position: relative;
+}
+
+#car #header #box .hul1 {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 770px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #header #box .hul1 li {
+  width: 90px;
+  height: 100%;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#car #header #box .hul1 li a {
+  color: #999999;
+}
+
+#car #header #box .hul1 #li2 {
+  position: relative;
+}
+
+#car #header #box .hul1 #li2 #ul2 {
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 0 10px;
+  position: absolute;
+  top: 32px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#car #header #box .hul1 #li2 #ul2 li {
+  width: 110px;
+  height: 110px;
+  border-radius: 30px;
+  border: 1px solid #c9c9c9;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#car #header #box .hul1 #li2 #ul2 li img {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+#car #header #box .hul1 li:nth-child(4) a {
+  color: red;
+}
+
+#car #header #box .hul1 li:nth-child(6) span {
+  color: #cf2042;
+  font-weight: bold;
+}
+
+#car #banner {
+  width: 1000px;
+  height: 100px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #nav {
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+
+#car #nav .nbox1 {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+#car #nav .nbox1 span:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+#car #main1 {
+  width: 1000px;
+  margin: auto;
+}
+
+#car #main1 .m1box1 {
+  width: 100%;
+  height: 354px;
+  text-align: center;
+  line-height: 354px;
+  display: none;
+}
+
+#car #main1 .m1box2 {
+  width: 1000px;
+  margin: auto;
+}
+
+#car #main1 .m1box2 .s-top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #main1 .m1box2 .s-top .s-t-rigth {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #main1 .m1box2 #conten {
+  width: 100%;
+}
+
+#car #main1 .m1box2 #conten .s-con {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #main1 .m1box2 #conten .s-con .msg {
+  width: 214px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#car #main1 .m1box2 #conten .s-con .msg img {
+  width: 70px;
+}
+
+#car #main1 .m1box2 #conten .s-con .gooods-Number {
+  width: 84px;
+  height: 22px;
+  display: flex;
+}
+
+#car #main1 .m1box2 #conten .s-con .gooods-Number .cur, #car #main1 .m1box2 #conten .s-con .gooods-Number .add {
+  border: 1px solid #c9c9c9;
+  width: 22px;
+  height: 22px;
+}
+
+#car #main1 .m1box2 #conten .s-con .gooods-Number .textnum {
+  width: 40px;
+  height: 22px;
+  text-align: center;
+}
+
+#car #main1 .m1box2 .s-footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #main1 .m1box2 .s-footer .jiesuan {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car #main1 .m1box2 .s-footer .jiesuan .btn {
+  height: 100%;
+  width: 150px;
+  border: none;
+  outline: none;
+  background: #b0b0b0;
+  color: #fff;
+  font-size: 25px;
+  cursor: no-drop;
+}
+
+#car #main1 .m1box2 .s-footer .jiesuan .bg1 {
+  height: 100%;
+  width: 150px;
+  border: none;
+  outline: none;
+  background: #f40;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#car #main2 {
+  width: 1000px;
+  height: 530px;
+  margin: 38px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#car #main2 h3 {
+  width: 100%;
+}
+
+#car #main2 .m2box1 {
+  width: 186px;
+  height: 236px;
+  border: 1px solid black;
+}
+
+#car #main2 .m2box1 img {
+  width: 186px;
+}
+
+#car #main2 .m2box1 p {
+  width: 180px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 14px;
+  color: #666666;
+}
+
+#car #main2 .m2box1 span {
+  margin-top: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+#car #main2 .m2box1 span .m2sp1 {
+  color: red;
+}
+
+#car #footer {
+  width: 1000px;
+  height: 110px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  color: #ccc;
+}
+
+#car #footer ul {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#car #footer img {
+  width: 40px;
+}
